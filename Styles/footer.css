@@ -1,0 +1,76 @@
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 66px;
+
+  background-color: black;
+  color: white;
+
+  height: 500px;
+  padding-top: 90px;
+}
+
+.bharatpe-info{
+  padding: 0px 60px;
+}
+
+.bharatpe-info > img{
+  margin-bottom: 40px;
+}
+
+.bharatpe-para{
+  color: rgb(208, 208, 208);
+  font-size: 14px;
+
+  margin-left: 20px;
+}
+
+.download-para{
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.button-section{
+  display: flex;
+  justify-content: space-between;
+
+  width: 315px;
+
+}
+
+.button-section > .playstore,.appstore{
+  width: 150px;
+
+  border-radius: 6px;
+
+}
+
+.button-section > .playstore:hover,.appstore:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.different-tabs{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.different-tabs-section{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.different-tabs-section > p{
+  font-size: 14px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.different-tabs-section > span{
+  color: rgb(208, 208, 208);
+  font-size: 12px;
+  margin: 4px 0px;
+}
